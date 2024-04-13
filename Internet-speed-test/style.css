@@ -1,0 +1,66 @@
+.card {
+  width: 440px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 1rem;
+  opacity: 95%;
+}
+
+.result {
+  font-size: 3em;
+  line-height: 1.3em;
+  text-align: center;
+  color: black;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.message {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-size: 4.5vh;
+  line-height: 6vh;
+  min-height: 6vh;
+  margin-top: 1.5rem;
+}
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 20%;
+}
+#reloadButton {
+  font-size: 2em;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#myText {
+  display: block;
+  width: 30%;
+  margin: 10px auto;
+}
+#facebookButton,
+#instagramButton {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  background-color: #000000; /* Black */
+  color: white;
+  text-decoration: none;
+  border-radius: 50%; /* Make the buttons round */
+  width: 20px; /* Set a fixed width */
+  height: 20px; /* Set a fixed height */
+  text-align: center; /* Center the text */
+  line-height: 20px; /* Vertically center the text */
+}
+
+#instagramButton {
+  background-color: #000000; /* Black */
+}
